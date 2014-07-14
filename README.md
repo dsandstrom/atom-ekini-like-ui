@@ -1,7 +1,4 @@
-# Proton UI Theme for Atom
+# Ekini Like UI - An Atom UI Theme
+###### Forked from the [Proton theme](https://github.com/simko-io/proton) by [simko-io](https://github.com/simko-io).
 
-An almost flat theme in shades of gunmetal and medium-contrast colors. **Pair it with the [Proton Monokai Syntax Theme](http://atom.io/packages/proton-monokai)**.
-
-Forked from the [Neutron theme](https://github.com/brentd/neutron-ui) by [@brentd](https://github.com/brentd/).
-
-![screenshot](http://cl.ly/image/323M2z0Y1b3f/Image%202014-05-29%20at%208.41.23%20AM.png)
+In development
