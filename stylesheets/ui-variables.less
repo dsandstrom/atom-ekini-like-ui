@@ -1,14 +1,23 @@
 // Colors
 
-@text-color: #7d868c;
-@text-color-subtle: #484F5A;
+@white: #c9c9bb;
+@blueGray: #6c8b9f;
+@blueLight: #96CBFE;
+@green: #2e3330;
+@greenLight: #A8FF60;
+@greenDark: #000709;
+@orangeLight: #E9C062;
+@orangePink: #CC6666;
+
+@text-color: @white;
+@text-color-subtle: @blueGray;
 @text-color-highlight: lighten(@text-color, 30%);
 @text-color-selected: lighten(@text-color, 60%);
 
-@text-color-info: #66D9EF;
-@text-color-success: #A6E22E;
-@text-color-warning: #E6DB74;
-@text-color-error: #F92672;
+@text-color-info: @blueLight;
+@text-color-success: @greenLight;
+@text-color-warning: @orangeLight;
+@text-color-error: @orangePink;
 
 @text-color-ignored: @text-color-subtle;
 @text-color-added: @text-color-success;
@@ -27,9 +36,9 @@
 @scrollbar-color: rgba(92, 92, 92, 0.5);
 
 // The one true bg color
-@app-background-color: #25282e;
+@app-background-color: @green;
 
-@tree-background-color: @app-background-color;
+@tree-background-color: @greenDark;
 
 @base-background-color: lighten(@app-background-color, 4%);
 @base-border-color: rgba(0, 0, 0, 0.5);
