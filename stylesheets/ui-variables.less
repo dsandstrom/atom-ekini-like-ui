@@ -9,6 +9,7 @@
 @greenBright: #A8FF60;
 @greenDark: #222624;
 @greenMedium: lighten(@greenDark, 10%);
+@greenMediumLight: lighten(@greenDark, 16%);
 @orangeLight: #E9C062;
 @orangePink: #CC6666;
 @black: #000709;
@@ -53,7 +54,7 @@
 @input-background-color: @app-background-color;
 @input-border-color: @base-border-color;
 
-@tool-panel-background-color: @app-background-color;
+@tool-panel-background-color: @greenMediumLight; //@app-background-color;
 @tool-panel-border-color: transparent;
 
 @inset-panel-background-color: @black;
@@ -62,7 +63,7 @@
 @panel-heading-background-color: @blueGrayDark;
 @panel-heading-border-color: fadein(@base-border-color, 10%);
 
-@overlay-background-color: @tool-panel-background-color;
+@overlay-background-color: @greenMedium; //@tool-panel-background-color;
 @overlay-border-color: @background-color-highlight;
 
 @button-background-color: @app-background-color;
