@@ -8,6 +8,7 @@
 @greenLight: #6a9875;
 @greenBright: #A8FF60;
 @greenDark: #222624;
+@greenMedium: lighten(@greenDark, 10%);
 @orangeLight: #E9C062;
 @orangePink: #CC6666;
 @black: #000709;
@@ -33,7 +34,7 @@
 @background-color-warning: #ffaa2c;
 @background-color-error: #e02b13;
 @background-color-highlight: rgba(255, 255, 255, 0.07);
-@background-color-selected: @blueGrayDark;
+@background-color-selected: @greenMedium;
 
 @scrollbar-background-color: rgba(42, 42, 42, 0.5);
 @scrollbar-color: rgba(92, 92, 92, 0.5);
@@ -55,10 +56,10 @@
 @tool-panel-background-color: @app-background-color;
 @tool-panel-border-color: transparent;
 
-@inset-panel-background-color: #161719;
+@inset-panel-background-color: @black;
 @inset-panel-border-color: @base-border-color;
 
-@panel-heading-background-color: #43484d;
+@panel-heading-background-color: @blueGrayDark;
 @panel-heading-border-color: fadein(@base-border-color, 10%);
 
 @overlay-background-color: @tool-panel-background-color;
@@ -70,7 +71,7 @@
 @button-border-color: transparent;
 
 @tab-bar-background-color: @greenDark;
-@tab-bar-border-color: lighten(@greenDark, 10%);
+@tab-bar-border-color: @greenMedium;
 @tab-background-color: @tab-bar-background-color; // not used
 @tab-background-color-active: @tab-bar-border-color;
 @tab-border-color:  @tab-bar-border-color;  // not used
