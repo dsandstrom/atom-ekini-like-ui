@@ -9,7 +9,7 @@
   background: @tab-bar-background-color;
   padding: 0;
   box-sizing: border-box;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid @tab-bar-border-color;
 
   &.list-inline {
     .tab {
@@ -26,6 +26,7 @@
     color: @text-color;
     transition: color .1s ease-in;
     border-radius: 0;
+    border-left: 1px solid @tab-bar-border-color;
 
     .close-icon {
       display: none;

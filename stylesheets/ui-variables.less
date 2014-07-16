@@ -2,20 +2,23 @@
 
 @white: #c9c9bb;
 @blueGray: #6c8b9f;
+@blueGrayDark: #4e5d62;
 @blueLight: #96CBFE;
 @green: #2e3330;
-@greenLight: #A8FF60;
-@greenDark: #000709;
+@greenLight: #6a9875;
+@greenBright: #A8FF60;
+@greenDark: #222624;
 @orangeLight: #E9C062;
 @orangePink: #CC6666;
+@black: #000709;
 
 @text-color: @white;
-@text-color-subtle: @blueGray;
+@text-color-subtle: @greenLight;
 @text-color-highlight: lighten(@text-color, 30%);
 @text-color-selected: lighten(@text-color, 60%);
 
 @text-color-info: @blueLight;
-@text-color-success: @greenLight;
+@text-color-success: @greenBright;
 @text-color-warning: @orangeLight;
 @text-color-error: @orangePink;
 
@@ -30,7 +33,7 @@
 @background-color-warning: #ffaa2c;
 @background-color-error: #e02b13;
 @background-color-highlight: rgba(255, 255, 255, 0.07);
-@background-color-selected: #343D46;
+@background-color-selected: @black;
 
 @scrollbar-background-color: rgba(42, 42, 42, 0.5);
 @scrollbar-color: rgba(92, 92, 92, 0.5);
@@ -66,11 +69,11 @@
 @button-background-color-selected: @app-background-color;
 @button-border-color: transparent;
 
-@tab-bar-background-color: darken(@app-background-color, 3%);
-@tab-bar-border-color: transparent;
-@tab-background-color: lighten(@app-background-color, 4%);
-@tab-background-color-active: @base-background-color;
-@tab-border-color: transparent;
+@tab-bar-background-color: @greenDark;
+@tab-bar-border-color: lighten(@greenDark, 10%);
+@tab-background-color: @tab-bar-background-color; // not used
+@tab-background-color-active: @tab-bar-border-color;
+@tab-border-color:  @tab-bar-border-color;  // not used
 
 @tree-view-background-color: @tool-panel-background-color;
 @tree-view-border-color: @tool-panel-border-color;
