@@ -1,3 +1,7 @@
+# v0.3.0
+###### 2014-07-18
+* Moved border from tree-view to pane
+
 # v0.2.0
 ###### 2014-07-15
 * Updated tab colors/borders
