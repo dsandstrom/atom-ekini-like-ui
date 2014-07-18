@@ -13,3 +13,10 @@ I forked [Proton](https://github.com/simko-io/proton)
 which was forked from [Neutron](https://github.com/brentd/neutron-ui)
 which was inspired by [Spacegray](https://github.com/kkga/spacegray).
 So my thanks for the hard work to @kkga, @brend, and @simko-io.
+
+### Todo
+
+* Button disabled
+* wrap guide (may be in syntax only)
+* Scroll bars don't always work
+* Widen scroll bars
