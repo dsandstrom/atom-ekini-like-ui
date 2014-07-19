@@ -19,3 +19,4 @@ So my thanks for the hard work to @kkga, @brend, and @simko-io.
 * wrap guide (may be in syntax only)
 * Scroll bar css don't always work
 * Widen scroll bars
+* Don't highlight root folder in tree
