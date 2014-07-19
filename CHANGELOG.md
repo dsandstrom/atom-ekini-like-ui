@@ -1,3 +1,7 @@
+# v0.4.0
+###### 2014-07
+* Adjust inset panel bg/border
+
 # v0.3.0
 ###### 2014-07-18
 * Fixed tab borders
