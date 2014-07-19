@@ -2,9 +2,9 @@
 ###### Forked from the [Proton theme](https://github.com/simko-io/proton) by [simko-io](https://github.com/simko-io).
 
 UI Theme to match [Ekini Like](https://github.com/dsandstrom/atom-ekini-like-theme).
-Very simple and green.
+Simple, flat, and green.
 
-\* Need to add pretty pictures here
+![Screenshot](https://github.com/dsandstrom/atom-ekini-like-ui/raw/master/screen-1.png)
 
 ---
 
@@ -15,8 +15,7 @@ which was inspired by [Spacegray](https://github.com/kkga/spacegray).
 So my thanks for the hard work to @kkga, @brend, and @simko-io.
 
 ### Todo
-
 * Button disabled
 * wrap guide (may be in syntax only)
-* Scroll bars don't always work
+* Scroll bar css don't always work
 * Widen scroll bars

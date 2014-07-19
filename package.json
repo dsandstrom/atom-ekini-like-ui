@@ -3,7 +3,7 @@
   "theme": "ui",
   "version": "0.2.0",
   "private": false,
-  "description": "A greenified version of Proton UI",
+  "description": "UI theme to complement Ekini Like Syntax",
   "repository": {
     "type": "git",
     "url": "https://github.com/dsandstrom/atom-ekini-like-ui"
