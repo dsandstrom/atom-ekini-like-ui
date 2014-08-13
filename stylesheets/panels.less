@@ -30,6 +30,11 @@
   .editor.mini {
     background: rgba(0,0,0,0.1);
     height: 27px;
+    .selection {
+      .region {
+        background-color: @tool-panel-text-selected !important;
+      }
+    }
   }
 }
 
@@ -61,13 +66,5 @@
     @selected: lighten(@button-background-color-selected, 10%);
     @text: lighten(@text-color, 10%);
     .btn-background(@bg, @hover, @selected, @text);
-  }
-}
-
-.editor.mini {
-  .selection {
-    .region {
-      background-color: @tool-panel-text-selected !important;
-    }
   }
 }
