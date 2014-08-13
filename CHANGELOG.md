@@ -1,3 +1,7 @@
+# v0.5.0
+###### 2014-08-12
+* Fix tool panel selection color
+
 # v0.4.0
 ###### 2014-08-11
 * Adjust inset panel bg/border
