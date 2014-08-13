@@ -44,6 +44,7 @@
 
 @tool-panel-background-color: @greenMedium; //@app-background-color;
 @tool-panel-border-color: transparent;
+@tool-panel-text-selected: @blueGrayDark;
 
 @inset-panel-background-color: @very-dark-gray; //@black;
 @inset-panel-border-color: @pane-item-border-color;
@@ -55,8 +56,8 @@
 @overlay-border-color: @background-color-highlight;
 
 @button-background-color: @app-background-color;
-@button-background-color-hover: @app-background-color;
-@button-background-color-selected: @app-background-color;
+@button-background-color-hover: lighten(@app-background-color, 10%);
+@button-background-color-selected: lighten(@app-background-color, 20%);
 @button-border-color: transparent;
 
 @tab-bar-background-color: @greenDark;
