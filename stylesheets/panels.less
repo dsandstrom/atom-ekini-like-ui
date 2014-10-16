@@ -28,13 +28,17 @@
   }
 
   .editor.mini {
-    background: rgba(0,0,0,0.1);
+    background: @input-background-color;
     height: 27px;
     .selection {
       .region {
         background-color: @tool-panel-text-selected !important;
       }
     }
+  }
+
+  .identation-indicator {
+    color: @tool-panel-text;
   }
 }
 
