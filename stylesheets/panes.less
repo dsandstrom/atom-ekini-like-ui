@@ -11,7 +11,9 @@
 .panes {
   .pane {
     background-color: lighten(@app-background-color, 4%);
-    border-left: 1px solid @pane-item-border-color;
+    .item-views {
+      border-right: 1px solid @pane-item-border-color;
+    }
   }
 
   .pane-row > * {
