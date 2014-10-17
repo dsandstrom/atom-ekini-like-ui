@@ -1,5 +1,10 @@
 # v0.5.0
 ###### 2014-08-12
+* Change tab colors to green
+* Use dark green for input color
+
+# v0.5.0
+###### 2014-08-12
 * Fix tool panel selection color
 
 # v0.4.0
