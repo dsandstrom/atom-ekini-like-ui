@@ -1,5 +1,5 @@
-# v0.5.0
-###### 2014-08-12
+# v0.6.0
+###### 2014-10-17
 * Change tab colors to green
 * Use dark green for input color
 
