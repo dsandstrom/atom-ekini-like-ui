@@ -1,3 +1,9 @@
+# v0.8.0
+###### 2014-11-9
+* Fixed thumbnail background for settings view
+* Fix item view background for find results
+* Styled buttons
+
 # v0.7.0
 ###### 2014-10-21
 * Use gray for subtle text
