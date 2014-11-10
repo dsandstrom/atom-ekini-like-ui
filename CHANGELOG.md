@@ -1,3 +1,7 @@
+# v0.8.1
+###### 2014-11-9
+* Fixed settings-view link hover
+
 # v0.8.0
 ###### 2014-11-9
 * Fixed thumbnail background for settings view

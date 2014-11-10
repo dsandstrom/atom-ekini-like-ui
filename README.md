@@ -1,7 +1,7 @@
 # Ekini Like UI - An Atom UI Theme
-###### Forked from the [Proton theme](https://github.com/simko-io/proton) by [simko-io](https://github.com/simko-io).
+###### An Atom UI Theme - [Atom.io](https://atom.io/themes/ekini-like-ui) : [Github](https://github.com/dsandstrom/atom-ekini-like-ui)
 
-UI Theme to match [Ekini Like](https://github.com/dsandstrom/atom-ekini-like-theme).
+Designed to match [Ekini Like](https://github.com/dsandstrom/atom-ekini-like-theme).
 Simple, flat, and green.
 
 ![Screenshot](https://github.com/dsandstrom/atom-ekini-like-ui/raw/master/screen-1.png)
