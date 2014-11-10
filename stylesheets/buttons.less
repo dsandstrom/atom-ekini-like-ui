@@ -2,39 +2,35 @@
 @import "ui-mixins";
 
 .btn-background (@color, @hover-color, @selected-color, @text-color) {
+  background: @color;
   color: @text-color;
   transition: color 0.2s;
 
   &:hover, &:focus {
+    background: @hover-color;
     color: @text-color;
   }
+
   &.selected,
   &.selected:hover {
+    background: @selected-color;
     color: @text-color-highlight;
-    &:hover {
-
-    }
   }
 }
 
 .btn-variant (@color) {
   @bg: darken(@color, 10%);
   @hover: @color;
-  @selected: @color;
+  @selected: lighten(@color, 10%);
   .btn-background(@bg, @hover, @selected, @text-color-highlight);
 }
 
 .btn {
-  .btn-background(@button-background-color, @button-background-color-hover, @button-background-color-selected, @text-color);
-
-  &:active {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-  }
+  .btn-variant(@background-color-info);
 }
 
 .btn.btn-primary {
-  .btn-variant(@background-color-info);
+  .btn-variant(@background-color-success);
 }
 .btn.btn-info {
   .btn-variant(@background-color-info);
@@ -53,5 +49,10 @@
 .thumbnail {
   .btn {
     margin-bottom: 6px;
+    border-color: darken(@button-background-color, 6%);
   }
+}
+
+body .settings-view .btn.btn-primary {
+  .btn-variant(@background-color-success);
 }
