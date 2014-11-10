@@ -1,4 +1,5 @@
-# Ekini Like UI - An Atom UI Theme
+# Ekini Like UI
+
 ###### An Atom UI Theme - [Atom.io](https://atom.io/themes/ekini-like-ui) : [Github](https://github.com/dsandstrom/atom-ekini-like-ui)
 
 Designed to match [Ekini Like](https://github.com/dsandstrom/atom-ekini-like-theme).
