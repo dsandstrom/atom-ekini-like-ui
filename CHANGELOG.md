@@ -3,6 +3,8 @@
 * Fixed thumbnail background for settings view
 * Fix item view background for find results
 * Styled buttons
+* Styled alerts
+* Styled settings-view links
 
 # v0.7.0
 ###### 2014-10-21
