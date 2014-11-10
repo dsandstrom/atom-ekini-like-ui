@@ -5,6 +5,7 @@
 * Styled buttons
 * Styled alerts
 * Styled settings-view links
+* Fix keybinding-resolver match color
 
 # v0.7.0
 ###### 2014-10-21
