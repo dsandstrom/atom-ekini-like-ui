@@ -1,10 +1,7 @@
 @import "ui-variables";
 
-@bg: desaturate(@app-background-color, 2%);
-
 .tree-view {
   font-size: @font-size - 1;
-  // background-image: linear-gradient(lighten(@bg, 1%), darken(@bg, 3%));
   background: @tree-background-color;
 }
 
@@ -43,7 +40,7 @@
     .selected > .name:before,
     .selected > .list-item > .name,
     .selected > .list-item > .name:before {
-      color: #fff !important;
+      color: @white !important;
     }
   }
 }
