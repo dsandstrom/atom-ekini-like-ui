@@ -1,3 +1,11 @@
+# v0.8.3
+###### 2014-11-11
+* Added padding to thumbnails in settings-view
+
+# v0.8.2
+###### 2014-11-10
+* Changed modified color back to yellow
+
 # v0.8.1
 ###### 2014-11-9
 * Fixed settings-view link hover
