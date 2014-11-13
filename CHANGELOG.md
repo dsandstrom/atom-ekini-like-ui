@@ -1,3 +1,8 @@
+# v0.9.0
+###### 2014-11-11
+* Fixed inset panel variables for themed-settings
+* Changed tab background back to dark green, made tabs green
+
 # v0.8.3
 ###### 2014-11-11
 * Added padding to thumbnails in settings-view
