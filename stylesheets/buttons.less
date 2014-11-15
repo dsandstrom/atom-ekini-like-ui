@@ -14,33 +14,35 @@
   &.selected,
   &.selected:hover {
     background: @selected-color;
-    color: @text-color-highlight;
+    color: darken(@text-color, 6%);
   }
 }
 
-.btn-variant (@color) {
-  @bg: darken(@color, 10%);
-  @hover: @color;
-  @selected: lighten(@color, 10%);
-  .btn-background(@bg, @hover, @selected, @text-color-highlight);
+.btn-variant (@background-color, @text-color: @gray) {
+  @bg: @background-color;
+  @hover: lighten(@background-color, 6%);
+  @selected: lighten(@background-color, 10%);
+  .btn-background(@bg, @hover, @selected, @text-color);
 }
 
 .btn {
-  .btn-variant(@background-color-info);
+  .btn-background(@button-background-color, @button-background-color-hover, @button-background-color-selected, @text-color);
+  border-color: @button-border-color;
 }
 
-.btn.btn-primary {
-  .btn-variant(@background-color-success);
-}
+.btn.btn-primary,
 .btn.btn-info {
   .btn-variant(@background-color-info);
 }
+
 .btn.btn-success {
   .btn-variant(@background-color-success);
 }
+
 .btn.btn-warning {
   .btn-variant(@background-color-warning);
 }
+
 .btn.btn-error {
   .btn-variant(@background-color-error);
 }
