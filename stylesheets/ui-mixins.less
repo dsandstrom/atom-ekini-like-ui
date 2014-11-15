@@ -37,3 +37,15 @@
   color: @text-color-error;
   text-shadow: none;
 }
+
+.top-to-bottom-border(@width, @color) {
+  border-width: 0 @width 0 0;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, @color, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.bottom-to-top-border(@width, @color) {
+  border-width: 0 @width 0 0;
+  border-style: solid;
+  border-image: linear-gradient(to top, @color, rgba(0, 0, 0, 0)) 1 100%;
+}

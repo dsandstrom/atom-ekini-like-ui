@@ -9,7 +9,7 @@
   background: @tab-bar-background-color;
   padding: 0;
   box-sizing: border-box;
-  border-bottom: 1px solid @tab-bar-border-color;
+  border-bottom: @tab-bar-border-width solid @tab-bar-border-color;
 
   &.list-inline {
     .tab {
@@ -20,15 +20,16 @@
 
   .tab {
     background-color: @tab-background-color;
-    position: relative;
-    height: @tab-height;
-    font-size: 12px;
-    line-height: @tab-height;
-    color: @text-color;
-    transition: color .1s ease-in;
     border-radius: 0;
-    border-right: 1px solid @tab-bar-background-color;
-    border-bottom: 1px solid @tab-bar-border-color;
+    color: @text-color;
+    font-size: 12px;
+    height: @tab-height;
+    line-height: @tab-height;
+    margin-top: -2px;
+    padding-top: 2px;
+    position: relative;
+    transition: color .1s ease-in;
+    .top-to-bottom-border(1px, @tab-bar-background-color);
 
     .close-icon {
       display: none;
@@ -61,9 +62,10 @@
   }
 
   .tab.active {
-    z-index: 10;
-    line-height: @tab-height;
+    border-width: 0;
     color: @text-color-highlight;
+    line-height: @tab-height;
+    z-index: 10;
 
     .close-icon {
       line-height: @tab-height -5px;
