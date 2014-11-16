@@ -1,3 +1,11 @@
+# v0.10.0
+###### 2014-11-15
+* Adjusted tab borders
+* Adjusted overlay and popover lists
+* Fix results view padding
+* Played around with button colors
+* Made text success/info and git colors more consistent
+
 # v0.9.0
 ###### 2014-11-11
 * Fixed inset panel variables for themed-settings
