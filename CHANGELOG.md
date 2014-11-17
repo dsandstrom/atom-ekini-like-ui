@@ -1,3 +1,8 @@
+# v0.10.1
+###### 2014-11-16
+* Remove padding from autocomplete-plus popover
+* Style tooltips
+
 # v0.10.0
 ###### 2014-11-15
 * Adjusted tab borders
