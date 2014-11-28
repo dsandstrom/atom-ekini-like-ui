@@ -1,7 +1,9 @@
 @import "ui-variables";
 
-atom-panel.modal,
-atom-panel.modal::shadow {
+atom-panel.overlay,
+atom-panel.overlay::shadow,
+atom-workspace .overlay,
+atom-workspace::shadow .overlay {
   color: @text-color;
   background-color: @overlay-background-color;
   padding: @component-padding 0 0;
