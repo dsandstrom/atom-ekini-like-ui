@@ -10,6 +10,6 @@
   },
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">= 0.152.0"
   }
 }

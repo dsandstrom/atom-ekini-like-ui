@@ -7,6 +7,9 @@ Simple, flat, and green.
 
 ![Screenshot](https://github.com/dsandstrom/atom-ekini-like-ui/raw/master/screen-1.png)
 
+### Dependencies
+Requires Atom v0.152.0 and up
+
 ### Notes
 I forked [Proton](https://github.com/simko-io/proton)
 which was forked from [Neutron](https://github.com/brentd/neutron-ui)
