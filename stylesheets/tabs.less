@@ -29,6 +29,7 @@
     padding-top: 2px;
     position: relative;
     transition: color .1s ease-in;
+
     .top-to-bottom-border(1px, @tab-bar-background-color);
 
     .close-icon {
@@ -40,14 +41,24 @@
       }
     }
 
-    &.modified:not(:hover) .close-icon {
-      display: block;
-      right: 8px;
-      top: 15px;
-      width: @modified-icon-width;
-      height: @modified-icon-width;
-      border-width: 2px;
-      border-color: @text-color-modified;
+    &.modified {
+      &:not(:hover) {
+        .close-icon {
+          display: block;
+          right: 8px;
+          top: 15px;
+          width: @modified-icon-width;
+          height: @modified-icon-width;
+          border-width: 2px;
+          border-color: @text-color-modified;
+        }
+      }
+
+      &:hover {
+        .close-icon {
+          color: @text-color-modified;
+        }
+      }
     }
 
     &:first-child {
