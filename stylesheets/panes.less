@@ -2,15 +2,17 @@
 @import "ui-variables";
 @import "buttons";
 
-.pane-item {
-  .panel {
-    border-color: fadeout(@inset-panel-border-color, 30%);
-  }
-}
-
-.panes {
-  .pane {
+atom-pane-axis,
+atom-pane-axis::shadow {
+  atom-pane,
+  atom-pane::shadow {
     background-color: lighten(@app-background-color, 4%);
+
+    .pane-item {
+      .panel {
+        border-color: fadeout(@inset-panel-border-color, 30%);
+      }
+    }
 
     .item-views {
       border-right: 2px solid @pane-item-border-color;
