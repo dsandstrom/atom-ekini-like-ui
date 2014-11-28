@@ -44,6 +44,7 @@
 &.select-list ol.list-group {
   li.two-lines {
     .secondary-line { color: @text-color-subtle; }
+
     &.selected .secondary-line {
       color: lighten(@text-color-subtle, 10%);
       text-shadow: none;
@@ -73,9 +74,11 @@
       height: @active-icon-size;
       width: @active-icon-size;
     }
+
     > li:not(.active):before {
       margin-right: @component-icon-padding;
     }
+
     li.active {
       .octicon(check, @active-icon-size);
       &:before {
