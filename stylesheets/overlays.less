@@ -7,7 +7,8 @@
   border-radius: @component-border-radius;
   box-shadow: 3px 3px 3px @shadow-color, -3px 3px 3px @shadow-color;
 
-  .editor.mini {
+  atom-text-editor[mini],
+  atom-text-editor[mini]::shadow {
     margin: @component-padding;
     margin-top: 0;
   }

@@ -27,9 +27,11 @@
   //   }
   // }
 
-  .editor.mini {
+  atom-text-editor[mini],
+  atom-text-editor[mini]::shadow {
     background: @input-background-color;
     height: 27px;
+
     .selection {
       .region {
         background-color: @tool-panel-text-selected !important;

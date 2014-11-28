@@ -1,34 +1,44 @@
 @import "ui-variables";
 @import "ui-mixins";
 
-.editor.mini {
+atom-text-editor[mini],
+atom-text-editor[mini]::shadow {
   color: @text-color-highlight;
   background-color: @input-background-color;
   border-radius: @component-border-radius;
   padding-left: @component-padding/2;
+
   .placeholder-text {
     color: @text-color-subtle;
   }
+
   .cursor { border-color: #fff; }
+
   .selection .region { background-color: lighten(@input-background-color, 10%); }
 }
 
-.editor.editor-colors.mini.is-focused {
-  .selection .region { background-color: lighten(@app-background-color, 5%); }
-  transition: background-color 0.1s
+atom-text-editor[mini],
+atom-text-editor[mini]::shadow {
+  &.editor-colors.is-focused {
+    .selection .region { background-color: lighten(@app-background-color, 5%); }
+    transition: background-color 0.1s
+  }
+}
+
+atom-text-editor,
+atom-text-editor::shadow {
+  .highlighted.selection .region {
+    -webkit-animation-name: highlight;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+  }
+
+  .gutter.drop-shadow {
+    box-shadow: 5px 0 10px rgba(0,0,0,0.1);
+  }
 }
 
 @-webkit-keyframes highlight {
   from { background-color: rgba(100, 255, 100, 0.7); }
   to { background-color: null; }
-}
-
-.editor .highlighted.selection .region {
-  -webkit-animation-name: highlight;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-iteration-count: 1;
-}
-
-.editor .gutter.drop-shadow {
-  box-shadow: 5px 0 10px rgba(0,0,0,0.1);
 }
