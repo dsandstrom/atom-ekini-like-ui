@@ -1,6 +1,7 @@
 # v1.0.0
 ###### 2014-11-28
 * Updated styles for shadow dom
+* Fixed modified tab close icon color
 
 # v0.10.1
 ###### 2014-11-16
