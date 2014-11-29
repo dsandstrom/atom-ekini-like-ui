@@ -1,3 +1,7 @@
+# v1.0.1
+###### 2014-11-28
+* Fixed select list error message padding
+
 # v1.0.0
 ###### 2014-11-28
 * Updated styles for shadow dom
